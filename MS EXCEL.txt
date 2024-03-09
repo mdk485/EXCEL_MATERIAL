@@ -1,0 +1,87 @@
+Formulas = A1+A2+A3 or A1*A2*A3
+
+ For example, A1 refers to the cell at the intersection of column A and row 1
+ 
+ Functions
+ =sum(A1,A2,A3)
+ =AVERAGE(A1,A2,A3)
+ =SUM(A1:A3)
+ =AVERAGE(A1:A3)
+ 
+ Mathematical Functions
+ 
+ notes on company laptop
+ 
+ char text functions
+ 
+ istext(value) --> return boolean True or False
+ len() ---> return the length of the text including spaces between the character
+ text(30-12-2000,'dd-mm-yy') or  text(30-12-2000,'dd-mmm-yyyy') --> converting date to text
+ replace("this is my text",start_num(1),char_to_replace(4),"that") ---> that is my text
+ 
+ 
+ SUBSTITUTE()
+ 
+ I am working in TCS			He working in TCS		 --->  =SUBSTITUTE(E16,"I am","He")
+MS WORD 2013,MS EXCEL 2013			MS WORD 2013,MS EXCEL 2017	 ---> =SUBSTITUTE(E17,2013,2017,2)	
+MS WORD 2013,MS EXCEL 2023			MS WORD 2017,MS EXCEL 2023 ----> =SUBSTITUTE(E18,2013,2017)
+
+
+Hello	world	Hello world	--->  =CONCATENATE(E20," ",F20)
+Excel 	is fun to learn	Excel  is fun to learn	---> =CONCATENATE(E21," ",F21)
+
+repeat --> it will help to repeat the text
+
+10	|||||||||| --->  =REPT("|",N8=REPT("|",N8)
+15	|||||||||||||||----->=REPT("|",N9)
+20	||||||||||||||||||||---->=REPT("|",N10)---
+25	|||||||||||||||||||||||||---->=REPT("|",N11)
+30	||||||||||||||||||||||||||||||--->=REPT("|",N12)
+
+TYPE:---> 
+
+VALUE	TYPE		value	type
+123	1		number/blank	1
+KISHORE	2		text	2
+TRUE	4		logical	4
+#NAME?	16		error	16
+{1,2,3,4}	2		array	64
+
+
+ISBLANK()--> Returns True when the blank is null otherwise it will return false
+
+TRIM() --> It will remove blank spaces at the begining and end of the text
+
+original name	length	trim result	length
+ kishore reddy	14	kishore reddy	13
+   reddy       kishore 	23	reddy kishore	13
+
+
+find()--> It will find the char in the text.It is case sensitive
+
+search()--> It will find the char in the text . It is case insensitive
+
+
+*** for using 2 or more adjacent cells for the text,in the Home of menu bar merge&center to display the entire data in one cell
+
+alt+enter --> to enter multiple rows in the cell
+
+clean()--> It will convert multiple lines of cell into single.
+
+upper() --> convert into upper
+lower() --> convert into lower
+proper() --> convert into proper --> proper("KISHORE REDDY")-->Kishore REDDY
+
+=FIND(" ",J43,1)
+FIND(" ",J43,FIND(" ",J43,1)+1)
+
+LEFT,RIGHT,MID 
+
+
+
+
+
+
+
+
+
