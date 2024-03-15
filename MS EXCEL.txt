@@ -75,7 +75,42 @@ proper() --> convert into proper --> proper("KISHORE REDDY")-->Kishore REDDY
 =FIND(" ",J43,1)
 FIND(" ",J43,FIND(" ",J43,1)+1)
 
-LEFT,RIGHT,MID 
+LEFT,RIGHT,MID --> these are used to split the text
+
+=VLOOKUP(What you want to look up, where you want to look for it, 
+the column number in the range containing the value to return, return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE)
+-- drawback of vlookup is execution starts from left to right
+=lookup ---> LOOKUP function is one of the most popular excel functions. 
+It returns a value from a range (one row or one column) or an array. We can use it as a worksheet function (WS) in Excel
+Data must be sort by ascending order
+
+HLOOKUP in Excel stands for 'Horizontal Lookup'. 
+It is a function that makes Excel search for a certain value in a row (the so called 'table array'),
+ in order to return a value from a different row in the same column.
+ 
+ it is similar like vlookup
+ 
+ Use the IF function, one of the logical functions, to return one value if a condition is true and another value
+ if it's false. For example: =IF(A2>B2,"Over Budget","OK") =IF(A2=B2,B4-A4,"")
+ 
+ =IFNA(value, value_if_na)
+
+The IFNA function uses the following arguments: Value (required argument) 
+– This is the formula or expression to be checked for an #N/A error. Value_if_na (required argument) 
+– This provides the specified value if the result of the formula or expression is N/A error
+
+IFERROR is a function in Excel that returns an alternate result, like a blank cell or text, when a formula evaluates an error.
+
+The INDEX function returns a value or the reference to a value from within a table or range
+
+The MATCH function searches for a specified item in a range of cells, and then returns the relative position of that item in the range
+
+match index --> =INDEX(E51:I56,MATCH(G56,G51:G56,0),MATCH(E51,E51:I51,0))
+
+=INDEX(E51:E56,MATCH(I56,I51:I56,0))
+
+
+
 
 
 
