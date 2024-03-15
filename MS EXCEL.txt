@@ -111,6 +111,17 @@ match index --> =INDEX(E51:I56,MATCH(G56,G51:G56,0),MATCH(E51,E51:I51,0))
 =INDEX(E51:E56,MATCH(I56,I51:I56,0))
 
 
+The SUMIF function is a premade function in Excel, which calculates the sum of values in a range based on a true or false condition.
+
+The SUMIFS function is a premade function in Excel, which calculates the sum of a range based on one or more true or false condition. It is typed =SUMIFS : =SUMIFS(sum_range, criteria_range1, criteria1, [criteria_range2, criteria2] ...)
+
+Use COUNTIF, one of the statistical functions, to count the number of cells that meet a criterion; for example, to count the number of times a particular city appears in a customer list
+
+The COUNTIFS function is a premade function in Excel, which counts cells in a range based on one or more true or false condition. It is typed =COUNTIFS : =COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2], ...)
+
+What is the AVERAGEIF Function? The AVERAGEIF Function[1] is an Excel Statistical function, which calculates the average of a given range of cells by a specific criterion.
+
+
 
 
 
