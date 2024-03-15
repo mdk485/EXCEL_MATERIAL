@@ -2,6 +2,7 @@ Formulas = A1+A2+A3 or A1*A2*A3
 
  For example, A1 refers to the cell at the intersection of column A and row 1
  
+ 
  Functions
  =sum(A1,A2,A3)
  =AVERAGE(A1,A2,A3)
