@@ -121,6 +121,43 @@ The COUNTIFS function is a premade function in Excel, which counts cells in a ra
 
 What is the AVERAGEIF Function? The AVERAGEIF Function[1] is an Excel Statistical function, which calculates the average of a given range of cells by a specific criterion.
 
+today() -- > gives todays date
+now() --> gives todays date with times
+=TIME(20,40,0) --> it will give the time accordingly to day like 8:40 pm
+
+=YEARFRAC(G71,G72,1) -- > gives the diff years to including dates
+
+
+day(24-03-2024) --> it will give you the name
+month() --> 
+year()
+
+hour(now()) --> it will give the hour
+minute(now())
+second(now())
+
+
+=pmt()--> will give the principle intrest per year,quarter,month
+future value assume the income with constant rate with constant periods
+=fv()
+
+present value -->
+Present value takes into account any interest rate an investment might earn. 
+=pv()
+
+net present value
+
+ An investor made an investment of $500 in property and gets back $570 the next year. If the rate of return is 10%. Calculate the net present value. 
+ 
+ Therefore, for 10% rate of return, investment has NPV = $18.18
+
+The discount rate refers to the rate of interest that is applied to future cash flows of an investment to calculate its present value.
+ It is the rate of return that companies or investors expect on their investment.
+ An investment's net present value computed through discounting reveals its viability.
+ 
+ =npv()
+ 
+ 
 
 
 
